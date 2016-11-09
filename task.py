@@ -10,7 +10,7 @@ def find_amount_of_ways_in_square(n=20):
             return 1
         return n*fact(n-1)
 
-    return fact(2*n) / (fact(n/2))**2
+    return fact(2*n) / (fact(n))**2
 
 if __name__ == '__main__':
     print find_amount_of_ways_in_square()
